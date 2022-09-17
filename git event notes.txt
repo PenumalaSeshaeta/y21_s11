@@ -1,0 +1,43 @@
+commands:
+ls- to see the list of files created
+pwd- post working directory- to see our current path or location
+cd "name"- create a repository
+git - it will show commands in it
+git init - it will maintain all your versions if we create it and it is used to create local repository
+git status- it will show what is there in git and changes we made until now every time
+cd .. - it will remove our created repository 
+git config --global user.name "penumala seshaeta" : to include ur full name(i.e,author name) into git contributor profile
+git config --global user.email "2100030428@kluniversity.in": to include ur email to git contributor profile
+git config user.name- to check whether the name is updated or not in the contributor profile
+git config user.email- to check whether an email is updated or not in the contributor profile
+To create any file like .txt,.html,.css files:
+touch "name".txt- to create a new empty file on ur name that u give
+git add name.txt- to create a track for our file and make all new changes will be saved there with stages we have done 
+git commit -m "create a new text"- we included a statement or message in it which can be seen in "git log"
+notepad name.txt- to add text info inside the .txt file or any file
+git log or git status- it will display the text we created with "commit" as modified 
+
+To every time newly open and see our past changes:
+cd documents
+cd 2100030428
+ls
+git init
+git status
+git log
+
+ SE GIT COMMANDS:
+mkdir name- to create a directory 
+cd d: - means it will change directory to D drive
+notepad name.txt- to add text info inside the .txt file or any file
+git clone-it is used to make a copy of a repository from an existing URL
+git config- it sets the author name and email address to be used with your commits
+git add name- to add one file
+git add*- to add multiple files in one go
+git commit -a -commits any file added in the repository with git add and also commits any files you have changed
+git status- to display the state of working directory and also displays changes made
+git push-to push our content in local repository to remote repository
+git push --all - it pushes all branches to the server repository
+git pull --all -it pulls all branches from the local repository
+git branch- lists all branches available in the repository
+git merge BranchName- to merge data into repository
+git log- it is used to check commit history
